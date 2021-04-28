@@ -101,7 +101,7 @@ func TestTruckDetailsMethod(t *testing.T) {
 // Task 10: Check `for _, veh:= range inventory`
 func TestForRangeInventory(t *testing.T) {
 	if !checkForWithinMain("main", "_", "veh", "inventory") {
-		t.Error("Could not find the for statement with no key and `v` as value and `f.Models` as range")
+		t.Error("Could not find the for statement with no key and `veh` as value and `inventory` as range")
 	}
 }
 
